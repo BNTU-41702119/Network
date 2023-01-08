@@ -1,0 +1,13 @@
+{
+  "name": "Network",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:BNTU-41702119/Network.git",
+  "author": "Artem Balamutyuk <artyom.balamutyuk1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^4.13.0",
+    "nedb": "^1.8.0"
+  }
+}
