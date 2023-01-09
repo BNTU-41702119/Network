@@ -73,7 +73,6 @@ const logoutUser = async ({
       if (updateErr) {
         reject(updateErr);
       }
-      console.log(updatedDoc);
       resolve(updatedDoc)
     });
   });
