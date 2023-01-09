@@ -138,6 +138,10 @@ app.get('/users', async function (req, res) {
   res.send(users);
 });
 
+app.head('/active-users', async function (req, res) {
+  res.setHeader('Content-Type', 'application/json').send();
+});
+
 app.get('/active-users', async function (req, res) {
   const users = await listActiveUsers();
 
